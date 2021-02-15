@@ -4,17 +4,67 @@ body {
 }
 header {
     display: flex;
-    justify-content: space-between;
-    margin: 0% 23% 1.45% 23%;
+    justify-content: space-around;
+    margin: 0% 0% 0.6% 1.8%;
+    align-items: center;
 }
+.headTitle {
+    font-family: 'Roboto', sans-serif;
+    color: #fda94f;
+    font-size: 37px;
+    /* margin: 5% ; */
+}
+.headNav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
 .welcomeHotel {
     background: url(./img/showcase.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 10% 10% 14% 10%;
+    padding: 8% 14% 15% 14%;
+    box-sizing: border-box;
 }
 .infoWelcomeHotel {
-
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.makeReservation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7% 0% 4% 0%;
+}
+.diferentTipsOfRooms {
+    display: flex;
+}
+.roomsInfoDOUBLE {
+background: url(./img/feature-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+padding: 3.50% 1% 3.50% 1%;
+}
+.roomsInfoDELUXE {
+background: url(./img/feature-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+padding: 3.50% 1% 3.50% 1%;
+}
+.roomsInfoHONEYMOON {
+background: url(./img/feature-3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+padding: 3.50% 1% 3.50% 1%;
+}
+footer {
+    text-align: center;
+    padding: 1.20% 0% 1.20% 0%;
 }
