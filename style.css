@@ -86,7 +86,7 @@ p {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 16px;
-    padding: 0% 6% 0% 6%;
+    padding: 0% 6%;
 }
 .titleWelcomeHotel {
     font-family: 'Roboto', sans-serif;
@@ -106,6 +106,31 @@ p {
     font-size: 30px;
     font-weight: normal;
 }
-a #buttomMakeReservation {
+#buttomWelcomeHotel {
+    background: #fda94f;   
     text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
 }
+#buttomWelcomeHotel:hover {
+   background: #fec281;
+}
+#buttomMakeReservation {
+    background: #4d4d4d;   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+#buttomMakeReservation:hover {
+    background: #737373;
+ }
