@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 0% 0.6% 1.8%;
+    align-items: center;
+}
+.headNav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.headTitle {
+    font-family: 'Roboto', sans-serif;
+    color: #fda94f;
+    font-size: 37px;
+}
+.navButtom a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navButtom {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+#aboutButtom {
+    color: #fda94f;
+}
+.navButtom a:hover {
+    color: #fda94f;
+}
+.aboutHotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fda94f;
+    margin: unset;
+    align-items: center;
+    padding: 50px 0px;
+}
+.aboutHotelInfo {
+    
+}
+
