@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.8% 0% 2% 2.5%;
+    align-items: center;
+}
+.headNav {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.headTitle {
+    color: #fda94f;
+    font-size: 37px;
+}
+.navButtom a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navButtom {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+#contactButtom {
+    color: #fda94f;
+}
+.navButtom a:hover {
+    color: #fda94f;
+}
+hr { 
+    background: #fda94f;
+    margin: unset;
+    height: 20px;
+    border: none;
+}
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactUsTitle {
+    font-size: 30px;
+    font-weight: unset;
+}
