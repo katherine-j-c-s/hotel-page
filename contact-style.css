@@ -49,8 +49,91 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #4d4d4d;
+    margin: 5% 0%;
 }
 .contactUsTitle {
-    font-size: 30px;
+    font-size: 37px;
     font-weight: unset;
+    align-self: flex-start;
+    margin-left: 25%;
+}
+.personalQuestions {
+    width: 50%;
+    height: 40%;
+}
+.answerBox1and2 {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #4d4d4d;
+}
+.answerBox3 {
+    padding: 80px;
+    width: 85%;
+    margin-bottom: 2%;
+}
+.buttonsubmit {
+    background: #4d4d4d;
+    color: white;
+    font-size: 18px;
+    padding: 13px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    align-self: flex-start;
+    margin-left: 25%;
+}
+.buttonsubmit:hover {
+    background: #737373;
+}
+.moreInfo {
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    margin: unset;
+}
+.location {
+    background: url(./img/contact-feature-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+    height: 180px;
+}
+.PhomeNumber {
+    background: url(./img/contact-feature-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+    height: 180px;
+}
+.EmailAddress {
+    background: url(./img/contact-feature-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+    height: 180px;
+}
+.moreInfoTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+.moreInfoText {
+    font-size: 16px;
+}
+footer {
+    text-align: center;
+    margin: 1% 0%;
+    color: #4d4d4d;
 }
