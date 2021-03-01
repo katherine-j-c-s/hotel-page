@@ -18,6 +18,27 @@ header {
     color: black;
     text-decoration: none;
 }
+.headTitle {
+    color: #fda94f;
+    font-size: 37px;
+    cursor: pointer;
+}
+.navButtom a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navButtom {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+#buttomheaderHome {
+    color: #fda94f;
+}
+.navButtom a:hover {
+    color: #fda94f;
+}
 .welcomeHotel {
     background: url(./img/showcase.jpg);
     background-repeat: no-repeat;
@@ -27,12 +48,53 @@ header {
     padding: 8% 14% 12% 14%;
     box-sizing: border-box;
 }
+p {
+    color: white;
+    font-size: 16px;
+    padding: 0% 6%;
+}
+.titleWelcomeHotel {
+    color: white;
+    font-size: 40px;
+    font-weight: unset;
+}
+#buttomWelcomeHotel {
+    background: #fda94f;   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+#buttomWelcomeHotel:hover {
+   background: #fec281;
+}
 .makeReservation {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2%;
 }
+.textMakeReservation h1{
+    color: #4d4d4d;
+    font-size: 30px;
+    font-weight: normal;
+}
+#buttomMakeReservation {
+    background: #4d4d4d;   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+#buttomMakeReservation:hover {
+    background: #737373;
+ }
 .diferentTipsOfRooms {
     display: flex;
 }
@@ -57,25 +119,10 @@ background-size: cover;
 text-align: center;
 padding: 3.50% 0% 3.50% 0%;
 }
-.headTitle {
-    color: #fda94f;
-    font-size: 37px;
-}
-.navButtom a {
-    color: #4d4d4d;
-    text-decoration: none;
-    font-size: 16px;
-}
-.navButtom {
-    display: flex;
-    justify-content: space-around;
-    width: 250px;
-}
-#buttomheaderHome {
-    color: #fda94f;
-}
-.navButtom a:hover {
-    color: #fda94f;
+.roomstitle {
+    color: white;
+    font-size: 25px;
+    font-weight: unset;
 }
 footer p{
     text-align: center;
@@ -83,49 +130,3 @@ footer p{
     font-weight: lighter;
     color: #4d4d4d;
 }
-p {
-    color: white;
-    font-size: 16px;
-    padding: 0% 6%;
-}
-.titleWelcomeHotel {
-    color: white;
-    font-size: 40px;
-    font-weight: unset;
-}
-.roomstitle {
-    color: white;
-    font-size: 25px;
-    font-weight: unset;
-}
-.textMakeReservation h1{
-    color: #4d4d4d;
-    font-size: 30px;
-    font-weight: normal;
-}
-#buttomWelcomeHotel {
-    background: #fda94f;   
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    color: white;
-    padding: 13px 20px;
-    border: none;
-    cursor: pointer;
-}
-#buttomWelcomeHotel:hover {
-   background: #fec281;
-}
-#buttomMakeReservation {
-    background: #4d4d4d;   
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    color: white;
-    padding: 13px 20px;
-    border: none;
-    cursor: pointer;
-}
-#buttomMakeReservation:hover {
-    background: #737373;
- }

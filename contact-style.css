@@ -21,6 +21,7 @@ header {
 .headTitle {
     color: #fda94f;
     font-size: 37px;
+    cursor: pointer;
 }
 .navButtom a {
     color: #4d4d4d;
